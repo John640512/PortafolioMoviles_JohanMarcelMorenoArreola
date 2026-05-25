@@ -80,5 +80,5 @@ Mostrar el avance académico y práctico obtenido durante el curso, evidenciando
 ---
 
 <p align="center">
-  ✨ Portafolio académico desarrollado por Johan Marcel Moreno Arreola ✨
+  Portafolio académico desarrollado por Johan Marcel Moreno Arreola
 </p>
