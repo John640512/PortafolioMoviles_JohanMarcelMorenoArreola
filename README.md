@@ -2,7 +2,7 @@
 
 ## Alumno
 
-- ### Johan Marcel Moreno Arreola
+- ### Nombre: Johan Marcel Moreno Arreola
 - ### Materia: Desarrollo de Aplicaciones para Dispositivos Móviles
 - ### Docente: Ing. Jesús Salas Marín
 - ### Semestre: Octavo semestre
