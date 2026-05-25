@@ -1,39 +1,84 @@
-# Portafolio de Proyectos — Desarrollo de Aplicaciones para Dispositivos Móviles
+# 📱 Portafolio de proyectos — Desarrollo de Aplicaciones para Dispositivos Móviles
 
-## Alumno
-
-- ### Nombre: Johan Marcel Moreno Arreola
-- ### Materia: Desarrollo de Aplicaciones para Dispositivos Móviles
-- ### Docente: Ing. Jesús Salas Marín
-- ### Semestre: Octavo semestre
-
----
-
-## Descripción general
-
-Este portafolio contiene los proyectos desarrollados durante la materia de Desarrollo de Aplicaciones para Dispositivos Móviles. Cada proyecto fue elaborado con el objetivo de aplicar conocimientos de programación, diseño de interfaces y conexión con diferentes herramientas tecnológicas.
-
-A lo largo del desarrollo de las prácticas se utilizaron tecnologías como Dart, Flutter, AppSheet y GitHub, permitiendo fortalecer competencias relacionadas con el desarrollo móvil, trabajo colaborativo y solución de problemas.
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-Mobile-blue?style=for-the-badge&logo=flutter" />
+  <img src="https://img.shields.io/badge/Dart-Programming-0175C2?style=for-the-badge&logo=dart" />
+  <img src="https://img.shields.io/badge/AppSheet-NoCode-5E35B1?style=for-the-badge&logo=google" />
+  <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" />
+</p>
 
 ---
 
-## Lista de proyectos incluidos
+# 👨‍🎓 Información del alumno
 
-### Proyecto 1
-Mini reproductor de música desarrollado en Flutter.
-
-### Proyecto 2
-Aplicación de control de ventas utilizando AppSheet.
-
-### Proyecto 3
-Aplicación móvil con navegación entre pantallas y almacenamiento de datos.
+| Dato | Información |
+|------|-------------|
+| **Nombre** | Johan Marcel Moreno Arreola |
+| **Materia** | Desarrollo de Aplicaciones para Dispositivos Móviles |
+| **Docente** | Ing. Jesús Salas Marín |
+| **Semestre** | Octavo semestre |
 
 ---
 
-## Tecnologías utilizadas
+# 📖 Descripción general
 
-- Dart
-- Flutter
-- AppSheet
-- GitHub
-- Visual Studio Code
+Este repositorio funciona como un portafolio académico enfocado en el desarrollo de aplicaciones móviles, integrando distintos proyectos elaborados durante la materia de Desarrollo de Aplicaciones para Dispositivos Móviles.
+
+Cada práctica y proyecto tiene como propósito aplicar conocimientos relacionados con programación móvil, diseño de interfaces, navegación entre pantallas, gestión de datos y utilización de herramientas modernas para el desarrollo de software.
+
+Durante la realización de los proyectos se trabajó con tecnologías como Flutter, Dart y AppSheet, fortaleciendo habilidades de desarrollo, lógica de programación, resolución de problemas y control de versiones mediante GitHub.
+
+---
+
+# 📂 Proyectos incluidos
+
+## 🎵 Proyecto 1 — Mini Reproductor de Música
+Aplicación desarrollada en Flutter capaz de reproducir música, mostrando controles interactivos, imágenes y navegación sencilla para mejorar la experiencia del usuario.
+
+---
+
+## 📊 Proyecto 2 — Aplicación de Control de Ventas
+Sistema desarrollado utilizando AppSheet para la administración y control de ventas, permitiendo registrar información de manera dinámica y eficiente.
+
+---
+
+## 📱 Proyecto 3 — Navegación y Gestión de Datos
+Aplicación móvil enfocada en la navegación entre pantallas, manejo de widgets y almacenamiento básico de información dentro de la aplicación.
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=dart,flutter,github,vscode" />
+</p>
+
+- **Dart**
+- **Flutter**
+- **AppSheet**
+- **GitHub**
+- **Visual Studio Code**
+
+---
+
+# 🎯 Competencias desarrolladas
+
+- Desarrollo de interfaces móviles
+- Programación orientada a objetos
+- Diseño de aplicaciones móviles
+- Navegación entre pantallas
+- Gestión de datos
+- Trabajo colaborativo
+- Uso de control de versiones con GitHub
+
+---
+
+# 🚀 Objetivo del portafolio
+
+Mostrar el avance académico y práctico obtenido durante el curso, evidenciando el desarrollo de aplicaciones móviles funcionales mediante distintas herramientas y tecnologías actuales.
+
+---
+
+<p align="center">
+  ✨ Portafolio académico desarrollado por Johan Marcel Moreno Arreola ✨
+</p>
