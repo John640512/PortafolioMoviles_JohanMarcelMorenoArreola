@@ -50,15 +50,11 @@ Aplicación móvil enfocada en la navegación entre pantallas, manejo de widgets
 # Tecnologías utilizadas
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=dart,flutter" />
-  
-  <img 
-    src="https://www.gstatic.com/images/branding/product/2x/appsheet_48dp.png" 
-    width="48"
-    height="48"
-  />
-
-  <img src="https://skillicons.dev/icons?i=github,vscode" />
+  <img src="https://skillicons.dev/icons?i=dart" />
+  <img src="https://skillicons.dev/icons?i=flutter" />
+  <img src="https://www.gstatic.com/images/branding/product/2x/appsheet_48dp.png" width="48" height="48"/>
+  <img src="https://skillicons.dev/icons?i=github" />
+  <img src="https://skillicons.dev/icons?i=vscode" />
 </p>
 
 - **Dart**
