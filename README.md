@@ -3,9 +3,9 @@
 ## Alumno
 
 - Johan Marcel Moreno Arreola
-- Desarrollo de Aplicaciones para Dispositivos Móviles
+- Materia: Desarrollo de Aplicaciones para Dispositivos Móviles
 - Docente: Ing. Jesús Salas Marín
-- Octavo Semestre
+- Semestre: Octavo semestre
 
 ---
 
