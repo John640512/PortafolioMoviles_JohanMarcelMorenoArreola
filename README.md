@@ -9,7 +9,7 @@
 
 ---
 
-# 👨‍🎓 Información del alumno
+# Información del alumno
 
 | Dato | Información |
 |------|-------------|
