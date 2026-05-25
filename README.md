@@ -1,4 +1,4 @@
-# 📱 Portafolio de proyectos — Desarrollo de Aplicaciones para Dispositivos Móviles
+# Portafolio de proyectos — Desarrollo de Aplicaciones para Dispositivos Móviles
 
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-Móvil-blue?style=for-the-badge&logo=flutter" />
@@ -20,7 +20,7 @@
 
 ---
 
-# 📖 Descripción general
+# Descripción general
 
 Este repositorio funciona como un portafolio académico enfocado en el desarrollo de aplicaciones móviles, integrando distintos proyectos elaborados durante la materia de Desarrollo de Aplicaciones para Dispositivos Móviles.
 
@@ -30,24 +30,24 @@ Durante la realización de los proyectos se trabajó con tecnologías como Flutt
 
 ---
 
-# 📂 Proyectos incluidos
+# Proyectos incluidos
 
-## 🎵 Proyecto 1 — Mini Reproductor de Música
+## Proyecto 1 — Mini Reproductor de Música
 Aplicación desarrollada en Flutter capaz de reproducir música, mostrando controles interactivos, imágenes y navegación sencilla para mejorar la experiencia del usuario.
 
 ---
 
-## 📊 Proyecto 2 — Aplicación de Control de Ventas
+## Proyecto 2 — Aplicación de Control de Ventas
 Sistema desarrollado utilizando AppSheet para la administración y control de ventas, permitiendo registrar información de manera dinámica y eficiente.
 
 ---
 
-## 📱 Proyecto 3 — Navegación y Gestión de Datos
+## Proyecto 3 — Navegación y Gestión de Datos
 Aplicación móvil enfocada en la navegación entre pantallas, manejo de widgets y almacenamiento básico de información dentro de la aplicación.
 
 ---
 
-# 🛠️ Tecnologías utilizadas
+# Tecnologías utilizadas
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=dart,flutter,github,vscode" />
@@ -61,7 +61,7 @@ Aplicación móvil enfocada en la navegación entre pantallas, manejo de widgets
 
 ---
 
-# 🎯 Competencias desarrolladas
+# Competencias desarrolladas
 
 - Desarrollo de interfaces móviles
 - Programación orientada a objetos
@@ -73,7 +73,7 @@ Aplicación móvil enfocada en la navegación entre pantallas, manejo de widgets
 
 ---
 
-# 🚀 Objetivo del portafolio
+# Objetivo del portafolio
 
 Mostrar el avance académico y práctico obtenido durante el curso, evidenciando el desarrollo de aplicaciones móviles funcionales mediante distintas herramientas y tecnologías actuales.
 
