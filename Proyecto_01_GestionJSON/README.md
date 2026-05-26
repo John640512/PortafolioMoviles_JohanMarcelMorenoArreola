@@ -75,3 +75,5 @@ Asegúrate de tener instalado **Dart SDK** en tu sistema operativo. Puedes verif
 
 ```bash
 dart --version
+```
+**Nota**: En caso de que tengas Flutter instalado en tu equipo, ya tendrás acceso a Dart, simplemente ejecuta el comando anterior para verificar esto.
