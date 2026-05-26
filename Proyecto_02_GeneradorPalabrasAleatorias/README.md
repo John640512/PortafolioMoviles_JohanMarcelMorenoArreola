@@ -130,7 +130,7 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu computadora local.
 
 ### 1. Requisitos previos
 
-Asegúrate de tener instalado Flutter en tu sistema operativo. Puedes verificarlo ejecutando:
+Asegúrate de tener instalado **Flutter** en tu sistema operativo. Puedes verificarlo ejecutando:
 
 ```bash
 flutter doctor
