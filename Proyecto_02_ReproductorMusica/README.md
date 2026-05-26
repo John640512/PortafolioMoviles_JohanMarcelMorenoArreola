@@ -95,7 +95,7 @@ flutter run
 ```
 La terminal te pedirá seleccionar el dispositivo de destino. Elige **Chrome** (para navegador web) o tu **Celular/Emulador** conectado.
 
-**Nota**: Si deseas forzar la ejecución directa en el navegador web sin que te pregunte, puedes usar:*
+**Nota**: Si deseas forzar la ejecución directa en el navegador web sin que te pregunte, puedes usar:
 ```bash
 flutter run -d chrome
 ```
