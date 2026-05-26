@@ -82,16 +82,16 @@ Descarga el código desde el repositorio de GitHub:
 git clone https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreola.git
 ```
 
-### 3. Descargar dependencias (Obligatorio)
+### 3. Entrar al proyecto
+Entra a la siguiente ruta dentro del proyecto:
+```bash
+cd Proyecto_02_ReproductorMusica/Códigos
+```
+
+### 4. Descargar dependencias (Obligatorio)
 Como el repositorio está limpio y no incluye archivos temporales, debes reconstruir el entorno descargando los paquetes del proyecto:
 ```bash
 flutter pub get
-```
-
-### 4. Entrar al proyecto
-Entra a la siguiente ruta:
-```bash
-cd Proyecto_02_ReproductorMusica/Códigos
 ```
 
 ### 5. Ejecutar la aplicación
