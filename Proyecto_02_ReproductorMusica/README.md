@@ -72,4 +72,7 @@ El proyecto busca demostrar cómo desarrollar una aplicación multimedia funcion
 ```bash
 git clone [https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreola.git]
 
+## 2. Entrar al proyecto
+
+```bash
 cd Proyecto_02_ReproductorMusica
