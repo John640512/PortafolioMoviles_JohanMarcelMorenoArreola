@@ -1,4 +1,4 @@
-# Mini reproductor de música en Flutter
+# Mini reproductor de música en Flutte
 
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-App_Móvil-02569B?style=for-the-badge&logo=flutter" />
