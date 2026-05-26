@@ -98,7 +98,7 @@ Barra de progreso sincronizada con la reproducción del audio en tiempo real.
 ## Versión web de la aplicación
 
 <p align="center">
-  <img src="capturas/version_web.png" width="700"/>
+  <img src="capturas/version_web.png" width="400"/>
 </p>
 
 Ejecución del reproductor musical desde navegador web utilizando Flutter Web.
@@ -108,7 +108,7 @@ Ejecución del reproductor musical desde navegador web utilizando Flutter Web.
 ## Versión móvil de la aplicación
 
 <p align="center">
-  <img src="capturas/version_movil.png" width="250"/>
+  <img src="capturas/version_movil.png" width="400"/>
 </p>
 
 Ejecución del reproductor musical en dispositivo móvil o emulador Android.
