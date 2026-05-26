@@ -32,7 +32,6 @@ Los proyectos tienen como finalidad aplicar conocimientos relacionados con:
 - Gestión y almacenamiento de datos
 - Reproducción multimedia
 - Trabajo con archivos JSON
-- Control de versiones mediante GitHub
 
 Además, cada práctica permitió fortalecer habilidades de lógica de programación, solución de problemas y diseño de experiencias interactivas para el usuario.
 
