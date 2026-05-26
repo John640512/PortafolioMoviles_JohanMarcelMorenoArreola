@@ -86,8 +86,8 @@ Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacen
 - **Dart**
 - **just_audio**
 - **JSON**
-- **GitHub**
 - **Visual Studio Code**
+- **GitHub**
 ---
 
 # Competencias desarrolladas
