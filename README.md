@@ -109,7 +109,7 @@ Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos 
 # Estructura del repositorio
 
 ```bash
-📦 Portafolio
+📦 PortafolioMoviles_JohanMarcelMorenoArreola
  ┣ 📂 Proyecto_1_Reproductor_Musica
  ┣ 📂 Proyecto_2_Gestion_JSON
  ┣ 📜 README.md
