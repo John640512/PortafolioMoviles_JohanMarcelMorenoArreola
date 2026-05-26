@@ -23,7 +23,7 @@ git clone https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreo
 
 2. Entrar al proyecto
 
-cd Proyecto_02_GestionJSON
+cd Proyecto_02_GestionJSON/Códigos
 
 
 3. Ejecutar la aplicación
