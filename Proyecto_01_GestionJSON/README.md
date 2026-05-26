@@ -54,7 +54,7 @@ El proyecto demuestra cómo trabajar con estructuras JSON para gestionar informa
 ## Búsqueda de registros
 
 <p align="center">
-  <img src="capturas/busqueda.png" width="500"/>
+  <img src="capturas/busqueda_persona.png" width="500"/>
 </p>
 
 ## Resultados obtenidos
