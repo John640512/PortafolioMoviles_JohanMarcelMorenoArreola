@@ -2,22 +2,21 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Dart-Programación-0175C2?style=for-the-badge&logo=dart" />
-  <img src="https://img.shields.io/badge/JSON-Data-black?style=for-the-badge&logo=json" />
+  <img src="https://img.shields.io/badge/JSON-Datos-black?style=for-the-badge&logo=json" />
   <img src="https://img.shields.io/badge/VS_Code-Editor-007ACC?style=for-the-badge&logo=visualstudiocode" />
-  <img src="https://img.shields.io/badge/GitHub-Repositorio-181717?style=for-the-badge&logo=github" />
 </p>
 
 ---
 
 # Objetivo del proyecto
 
-Desarrollar una aplicación capaz de leer, procesar, buscar y filtrar información almacenada en archivos JSON mediante el lenguaje Dart.
+Desarrollar una aplicación enfocada en la lectura, búsqueda, filtrado y exportación de información almacenada en archivos JSON utilizando Dart, permitiendo manipular datos de manera organizada y eficiente.
 
 ---
 
 # Problema que resuelve
 
-El proyecto permite administrar información estructurada utilizando archivos JSON, facilitando la búsqueda y filtrado de datos de manera rápida y organizada.
+El proyecto demuestra cómo trabajar con estructuras JSON para gestionar información dinámica, facilitando la búsqueda y filtrado de registros mediante diferentes criterios y opciones interactivas.
 
 ---
 
@@ -32,14 +31,15 @@ El proyecto permite administrar información estructurada utilizando archivos JS
 
 # Conceptos aplicados
 
-- Manipulación de archivos JSON
-- Lectura y escritura de archivos
 - Programación orientada a objetos
+- Lectura y escritura de archivos JSON
 - Manejo de listas y mapas
-- Validación de datos
-- Filtrado de información
+- Filtrado de datos
+- Validación de información
+- Procesamiento de datos
 - Estadísticas básicas
-- Menús interactivos en consola
+- Menús interactivos
+- Manipulación de archivos
 
 ---
 
@@ -57,7 +57,7 @@ El proyecto permite administrar información estructurada utilizando archivos JS
   <img src="capturas/busqueda.png" width="500"/>
 </p>
 
-## Resultados y estadísticas
+## Resultados obtenidos
 
 <p align="center">
   <img src="capturas/resultados.png" width="500"/>
@@ -67,7 +67,11 @@ El proyecto permite administrar información estructurada utilizando archivos JS
 
 # Instrucciones de ejecución
 
-## 1. Clonar el repositorio
+Sigue estos pasos para clonar y ejecutar el proyecto en tu computadora local.
+
+### 1. Requisitos previos
+
+Asegúrate de tener instalado **Dart SDK** en tu sistema operativo. Puedes verificarlo ejecutando en tu terminal:
 
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+dart --version
