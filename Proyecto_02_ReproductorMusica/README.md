@@ -77,3 +77,13 @@ git clone https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreo
 2. Entrar al proyecto
 
 cd Proyecto_02_ReproductorMusica
+
+
+3. Instalar dependencias
+
+flutter pub get
+
+
+4. Ejecutar la aplicación
+
+flutter run
