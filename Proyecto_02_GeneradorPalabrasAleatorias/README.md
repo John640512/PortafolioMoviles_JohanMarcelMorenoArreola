@@ -114,16 +114,6 @@ Adaptación automática de la interfaz según el tamaño de pantalla.
 
 ---
 
-## Interfaz mejorada
-
-<p align="center">
-  <img src="capturas/interfaz_mejorada.png" width="300"/>
-</p>
-
-Aplicación con mejoras visuales como degradados, sombras, botones personalizados y animaciones.
-
----
-
 # Instrucciones de ejecución
 
 Sigue estos pasos para clonar y ejecutar el proyecto en tu computadora local.
