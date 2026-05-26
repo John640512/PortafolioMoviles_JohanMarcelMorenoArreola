@@ -124,4 +124,4 @@ También fue algo difícil adaptar la aplicación para que pudiera ejecutarse ta
 
 Me gustaría mejorar mucho más el diseño de la aplicación agregando animaciones, efectos visuales y una mejor organización de las canciones. También sería interesante agregar listas de reproducción personalizadas y permitir que el usuario pueda cargar sus propias canciones desde el dispositivo.
 
-Además, en un futuro me gustaría implementar funciones más avanzadas como reproducción en segundo plano, control de volumen más completo y conexión con plataformas de música en línea para hacer la aplicación más profesional.
+Además, en un futuro me gustaría implementar funciones más avanzadas como reproducción en segundo plano y control de volumen más completo.
