@@ -40,7 +40,7 @@ Además, cada práctica permitió fortalecer habilidades de lógica de programac
 
 # Proyectos incluidos
 
-## Proyecto 1 — Mini Reproductor de Música en Flutter
+## Proyecto 1 — Mini reproductor de música en Flutter
 
 Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacenadas localmente mediante la librería `just_audio`.
 
@@ -56,7 +56,7 @@ Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacen
 
 ---
 
-## Proyecto 2 — Gestión y Procesamiento de Datos JSON
+## Proyecto 2 — Gestión y procesamiento de datos JSON
 
 Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos utilizando archivos JSON.
 
