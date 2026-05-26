@@ -54,13 +54,6 @@ Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacen
 - Interfaz moderna en tonos oscuros
 - Compatible con aplicación web y móvil
 
-### Tecnologías utilizadas
-
-- Flutter
-- Dart
-- just_audio
-- Visual Studio Code
-
 ---
 
 ## Proyecto 2 — Gestión y Procesamiento de Datos JSON
