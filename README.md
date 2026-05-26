@@ -33,6 +33,8 @@ Los proyectos tienen como finalidad aplicar conocimientos relacionados con:
 - Gestión y almacenamiento de datos
 - Reproducción multimedia
 - Trabajo con archivos JSON
+- Gestión de estados
+- Diseño responsivo
 
 Además, cada práctica permitió fortalecer habilidades de lógica de programación, solución de problemas y diseño de experiencias interactivas para el usuario.
 
@@ -56,7 +58,23 @@ Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos 
 
 ---
 
-## Proyecto 2 — Mini reproductor de música en Flutter
+## Proyecto 2 — Generador interactivo de palabras aleatorias
+
+Aplicación desarrollada en Flutter capaz de generar pares de palabras aleatorias dinámicamente, permitiendo agregar elementos a favoritos y navegar entre distintas vistas de la aplicación.
+
+### Características principales
+
+- Generación dinámica de palabras
+- Sistema de favoritos
+- Navegación entre pantallas
+- Gestión de estados con Provider
+- Diseño responsivo
+- Interfaz moderna e interactiva
+- Compatibilidad web y móvil
+
+---
+
+## Proyecto 3 — Mini reproductor de música en Flutter
 
 Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacenadas localmente mediante la librería `just_audio`.
 
@@ -84,10 +102,12 @@ Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacen
 
 - **Flutter**
 - **Dart**
+- **Provider**
 - **just_audio**
 - **JSON**
 - **Visual Studio Code**
 - **GitHub**
+
 ---
 
 # Competencias desarrolladas
@@ -95,10 +115,12 @@ Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacen
 - Desarrollo de aplicaciones móviles
 - Diseño de interfaces gráficas
 - Manejo de widgets en Flutter
+- Gestión de estados
 - Programación orientada a objetos
 - Gestión y procesamiento de datos
 - Manipulación de archivos JSON
 - Reproducción multimedia
+- Diseño responsivo
 - Resolución de problemas
 - Trabajo colaborativo
 - Uso de control de versiones con GitHub
@@ -126,3 +148,4 @@ Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacen
  ┃
  ┗ 📜 README.md
 ```
+---
