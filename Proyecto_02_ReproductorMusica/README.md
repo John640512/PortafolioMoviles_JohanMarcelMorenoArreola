@@ -88,7 +88,13 @@ Como el repositorio está limpio y no incluye archivos temporales, debes reconst
 flutter pub get
 ```
 
-### 4. Ejecutar la aplicación
+### 4. Entrar al proyecto
+Entra a la siguiente ruta:
+```bash
+cd Proyecto_02_ReproductorMusica/Códigos
+```
+
+### 5. Ejecutar la aplicación
 Para lanzar la aplicación, usa el siguiente comando:
 ```bash
 flutter run
