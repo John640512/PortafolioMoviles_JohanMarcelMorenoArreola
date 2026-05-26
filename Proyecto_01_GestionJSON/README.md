@@ -45,22 +45,100 @@ El proyecto demuestra cómo trabajar con estructuras JSON para gestionar informa
 
 # Capturas de pantalla
 
-## Menú principal
+## Carga correcta del archivo JSON
 
 <p align="center">
-  <img src="capturas/menu.png" width="500"/>
+  <img src="capturas/carga_json.png" width="700"/>
 </p>
 
-## Búsqueda de registros
+Se muestra la carga exitosa del archivo `data.json` y el inicio correcto de la aplicación.
+
+---
+
+## Menú principal de la aplicación
 
 <p align="center">
-  <img src="capturas/busqueda_persona.png" width="500"/>
+  <img src="capturas/menu_principal.png" width="700"/>
 </p>
 
-## Resultados obtenidos
+Menú interactivo con las diferentes opciones para consultar, filtrar y exportar datos.
+
+---
+
+## Visualización de registros
 
 <p align="center">
-  <img src="capturas/resultados.png" width="500"/>
+  <img src="capturas/mostrar_datos.png" width="700"/>
+</p>
+
+Visualización completa de los registros almacenados en el archivo JSON.
+
+---
+
+## Búsqueda de personas
+
+<p align="center">
+  <img src="capturas/busqueda_persona.png" width="700"/>
+</p>
+
+Ejemplo de búsqueda de un registro específico utilizando el nombre de una persona.
+
+---
+
+## Filtrado por edad mínima
+
+<p align="center">
+  <img src="capturas/filtro_edad.png" width="700"/>
+</p>
+
+Filtrado dinámico de registros utilizando una edad mínima definida por el usuario.
+
+---
+
+## Filtrado por salario mínimo
+
+<p align="center">
+  <img src="capturas/filtro_salario.png" width="700"/>
+</p>
+
+Filtrado dinámico de registros utilizando un salario mínimo definido por el usuario.
+
+---
+
+## Estadísticas generadas
+
+<p align="center">
+  <img src="capturas/estadisticas.png" width="700"/>
+</p>
+
+Cálculo automático de estadísticas como salario promedio, edad mínima, edad máxima y total de registros.
+
+---
+
+## Exportación de resumen JSON
+
+<p align="center">
+  <img src="capturas/exportacion_json.png" width="700"/>
+</p>
+
+Generación automática del archivo `resumen.json` con la información procesada.
+
+---
+
+## Creación de resumen JSON
+
+<p align="center">
+  <img src="capturas/exportacion_json2.png" width="700"/>
+</p>
+
+Resultado de exportar resumen JSON.
+
+---
+
+## Salida de la aplicación
+
+<p align="center">
+  <img src="capturas/salir.png" width="700"/>
 </p>
 
 ---
