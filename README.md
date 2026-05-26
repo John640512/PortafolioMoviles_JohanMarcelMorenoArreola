@@ -1,4 +1,4 @@
-# 📱 Portafolio de Proyectos — Desarrollo de Aplicaciones para Dispositivos Móviles
+# Portafolio de Proyectos — Desarrollo de Aplicaciones para Dispositivos Móviles
 
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-Móvil-blue?style=for-the-badge&logo=flutter" />
@@ -9,7 +9,7 @@
 
 ---
 
-# 👨‍💻 Información del alumno
+# Información del alumno
 
 | Dato | Información |
 |------|-------------|
@@ -20,7 +20,7 @@
 
 ---
 
-# 📖 Descripción general
+# Descripción general
 
 Este repositorio funciona como un portafolio académico donde se integran distintos proyectos desarrollados durante la materia de **Desarrollo de Aplicaciones para Dispositivos Móviles**.
 
@@ -38,13 +38,13 @@ Además, cada práctica permitió fortalecer habilidades de lógica de programac
 
 ---
 
-# 🚀 Proyectos incluidos
+# Proyectos incluidos
 
-## 🎵 Proyecto 1 — Mini Reproductor de Música en Flutter
+## Proyecto 1 — Mini Reproductor de Música en Flutter
 
 Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacenadas localmente mediante la librería `just_audio`.
 
-### ✨ Características principales
+### Características principales
 
 - Reproducción de música en tiempo real
 - Botones de Play, Pause, Siguiente y Anterior
@@ -54,7 +54,7 @@ Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacen
 - Interfaz moderna en tonos oscuros
 - Compatible con aplicación web y móvil
 
-### 🛠 Tecnologías utilizadas
+### Tecnologías utilizadas
 
 - Flutter
 - Dart
@@ -63,11 +63,11 @@ Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacen
 
 ---
 
-## 📊 Proyecto 2 — Gestión y Procesamiento de Datos JSON
+## Proyecto 2 — Gestión y Procesamiento de Datos JSON
 
 Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos utilizando archivos JSON.
 
-### ✨ Funcionalidades principales
+### Funcionalidades principales
 
 - Mostrar registros almacenados en JSON
 - Buscar personas por nombre
@@ -77,7 +77,7 @@ Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos 
 - Exportar información resumida a un nuevo archivo JSON
 - Validación de opciones dentro del menú
 
-### 🛠 Tecnologías utilizadas
+### Tecnologías utilizadas
 
 - Dart
 - JSON
@@ -86,7 +86,7 @@ Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos 
 
 ---
 
-# 🧰 Tecnologías utilizadas
+# Tecnologías utilizadas
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=dart" />
@@ -105,7 +105,7 @@ Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos 
 
 ---
 
-# 📚 Competencias desarrolladas
+# Competencias desarrolladas
 
 - Desarrollo de aplicaciones móviles
 - Diseño de interfaces gráficas
@@ -120,7 +120,7 @@ Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos 
 
 ---
 
-# 📂 Estructura del repositorio
+# Estructura del repositorio
 
 ```bash
 📦 Portafolio
