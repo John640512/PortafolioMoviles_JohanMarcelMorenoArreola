@@ -74,7 +74,7 @@ Asegúrate de tener instalado **Flutter** en tu sistema operativo. Puedes verifi
 ```bash
 flutter doctor
 ```
-Nota
+**Nota**: No es necesario instalar Dart por aparte, al instalar Flutter ya te inclute Dart automáticamente.
 
 ### 2. Clonar el Proyecto
 Descarga el código desde el repositorio de GitHub:
