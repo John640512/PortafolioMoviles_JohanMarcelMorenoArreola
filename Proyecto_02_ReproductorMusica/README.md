@@ -67,11 +67,19 @@ El proyecto busca demostrar cómo desarrollar una aplicación multimedia funcion
 
 # Instrucciones de ejecución
 
+Sigue estos pasos para clonar y ejecutar el proyecto en tu computadora local para Web y Móvil.
+
+### 1. Requisitos Previos
+Asegúrate de tener instalado **Flutter** en tu sistema operativo. Puedes verificarlo ejecutando en tu terminal:
 ```bash
+flutter doctor
+```
 
-1. Clonar el repositorio
-
+### 2. Clonar el Proyecto
+Descarga el código desde el repositorio de GitHub:
+```bash
 git clone https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreola.git
+```
 
 
 2. Entrar al proyecto
