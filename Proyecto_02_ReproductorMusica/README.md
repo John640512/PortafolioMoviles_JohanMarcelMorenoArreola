@@ -99,17 +99,3 @@ La terminal te pedirá seleccionar el dispositivo de destino. Elige **Chrome** (
 ```bash
 flutter run -d chrome
 ```
-
-2. Entrar al proyecto
-
-cd Proyecto_02_ReproductorMusica/Códigos
-
-
-3. Instalar dependencias
-
-flutter pub get
-
-
-4. Ejecutar la aplicación
-
-flutter run
