@@ -74,12 +74,18 @@ Asegúrate de tener instalado **Flutter** en tu sistema operativo. Puedes verifi
 ```bash
 flutter doctor
 ```
-**Nota**: No es necesario instalar Dart por aparte, al instalar Flutter ya te inclute Dart automáticamente.
+**Nota**: No es necesario instalar Dart por aparte, al instalar Flutter ya te incluye Dart automáticamente.
 
 ### 2. Clonar el Proyecto
 Descarga el código desde el repositorio de GitHub:
 ```bash
 git clone https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreola.git
+```
+
+### 3. Descargar Dependencias (Obligatorio)
+Como el repositorio está limpio y no incluye archivos temporales, debes reconstruir el entorno descargando los paquetes del proyecto:
+```bash
+flutter pub get
 ```
 
 
