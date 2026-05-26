@@ -171,25 +171,16 @@ flutter pub get
 ---
 
 ### 5. Ejecutar la aplicación
-
-Inicia la aplicación con:
-
+Para lanzar la aplicación, usa el siguiente comando:
 ```bash
 flutter run
 ```
+La terminal te pedirá seleccionar el dispositivo de destino. Elige **Chrome** (para navegador web) o tu **Celular/Emulador** conectado.
 
-Selecciona el dispositivo deseado (Chrome, emulador o dispositivo físico).
-
----
-
-### 6. Ejecutar directamente en navegador web
-
-Si deseas abrir la aplicación directamente en Chrome:
-
+**Nota**: Si deseas forzar la ejecución directa en el navegador web sin que te pregunte, puedes usar:
 ```bash
 flutter run -d chrome
 ```
-
 ---
 
 # Reflexión personal
