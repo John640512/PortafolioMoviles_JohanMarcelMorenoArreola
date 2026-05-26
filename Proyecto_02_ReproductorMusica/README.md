@@ -105,3 +105,23 @@ La terminal te pedirá seleccionar el dispositivo de destino. Elige **Chrome** (
 ```bash
 flutter run -d chrome
 ```
+
+# Reflexión personal
+
+## ¿Qué aprendí?
+
+Con este proyecto aprendí mucho más sobre cómo desarrollar aplicaciones móviles usando Flutter y Dart. Antes no entendía completamente cómo funcionaban los widgets ni cómo se construía una interfaz móvil desde cero, pero durante el desarrollo fui comprendiendo mejor la estructura de una aplicación y la forma en que todos los elementos se conectan entre sí.
+
+También aprendí a trabajar con reproducción de audio usando librerías externas como `just_audio`, además de manejar listas de canciones, imágenes y controles multimedia como play, pause, siguiente y anterior. Otra cosa importante fue aprender a organizar mejor el código para que la aplicación fuera más fácil de entender y mantener.
+
+## ¿Qué fue difícil?
+
+Lo más complicado fue lograr que la música funcionara correctamente mientras la interfaz se actualizaba en tiempo real. En algunos momentos los botones no respondían como esperaba o la barra de progreso no avanzaba correctamente mientras se reproducía la canción.
+
+También fue algo difícil adaptar la aplicación para que pudiera ejecutarse tanto en celular como en navegador web sin que se desacomodaran los elementos de la interfaz. Tuve que hacer varias pruebas hasta conseguir un resultado más estable y visualmente agradable.
+
+## ¿Qué mejoraría?
+
+Me gustaría mejorar mucho más el diseño de la aplicación agregando animaciones, efectos visuales y una mejor organización de las canciones. También sería interesante agregar listas de reproducción personalizadas y permitir que el usuario pueda cargar sus propias canciones desde el dispositivo.
+
+Además, en un futuro me gustaría implementar funciones más avanzadas como reproducción en segundo plano, control de volumen más completo y conexión con plataformas de música en línea para hacer la aplicación más profesional.
