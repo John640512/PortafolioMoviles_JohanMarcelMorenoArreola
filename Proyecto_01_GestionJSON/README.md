@@ -71,7 +71,6 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu computadora local.
 
 ### 1. Requisitos previos
 Asegúrate de tener instalado **Dart SDK** en tu sistema operativo. Puedes verificarlo ejecutando en tu terminal:
-
 ```bash
 dart --version
 ```
@@ -84,7 +83,13 @@ git clone https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreo
 ```
 
 ### 3. Entrar al proyecto
-Descarga el código desde el repositorio de GitHub:
+Entra a la siguiente ruta dentro del proyecto:
 ```bash
 cd Proyecto_01_GestionJSON/Códigos
+```
+
+### 3. Ejecutar la aplicación
+Ejecuta el programa utilizando:
+```bash
+dart run principal.dart
 ```
