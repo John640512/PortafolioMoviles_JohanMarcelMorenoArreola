@@ -98,18 +98,18 @@ dart run principal.dart
 
 ## ¿Qué aprendí?
 
-Aquí escribes lo que aprendiste durante el desarrollo del proyecto.
+Con este proyecto aprendí a trabajar con archivos JSON utilizando Dart, comprendiendo cómo leer, interpretar y manipular datos estructurados dentro de una aplicación. También aprendí a realizar búsquedas, filtros y procesamiento de información mediante listas y mapas, permitiendo organizar registros de manera dinámica.
+
+Además, fortalecí mis conocimientos sobre programación orientada a objetos y validación de datos, desarrollando menús interactivos capaces de responder correctamente a las opciones ingresadas por el usuario. El proyecto también me ayudó a comprender la importancia de mantener una estructura clara para facilitar el manejo de información.
 
 ## ¿Qué fue difícil?
 
-Aquí explicas los problemas o retos que tuviste.
+La parte más complicada fue manejar correctamente la lectura y escritura de archivos JSON, especialmente al momento de exportar información y validar que los datos conservaran el formato adecuado. También representó un reto controlar posibles errores generados por entradas inválidas del usuario dentro del menú interactivo.
+
+Otro desafío importante fue implementar filtros eficientes para mostrar únicamente la información necesaria dependiendo de las condiciones establecidas por el usuario, como edad mínima o salario mínimo.
 
 ## ¿Qué mejoraría?
 
-Aquí mencionas mejoras futuras o cosas que agregarías al proyecto.
+Me gustaría mejorar el sistema agregando una interfaz gráfica más moderna e intuitiva, ya que actualmente el proyecto funciona mediante consola. También sería interesante implementar filtros avanzados, ordenamiento dinámico de registros y exportación de información a diferentes formatos como CSV o Excel.
 
----
-
-<p align="center">
-  Proyecto desarrollado por Johan Marcel Moreno Arreola
-</p>
+Además, podría integrarse una base de datos o conexión con servicios externos para trabajar con información en tiempo real y aumentar las capacidades del sistema.
