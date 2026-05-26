@@ -110,6 +110,6 @@ Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos 
 
 ```bash
 📦 PortafolioMoviles_JohanMarcelMorenoArreola
- ┣ 📂 Proyecto_1_Reproductor_Musica
- ┣ 📂 Proyecto_2_Gestion_JSON
+ ┣ 📂 Proyecto_01_ReproductorMusica
+ ┣ 📂 Proyecto_02_GestionJSON
  ┣ 📜 README.md
