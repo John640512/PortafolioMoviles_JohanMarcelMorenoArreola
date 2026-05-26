@@ -70,13 +70,6 @@ Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos 
 - Exportar información resumida a un nuevo archivo JSON
 - Validación de opciones dentro del menú
 
-### Tecnologías utilizadas
-
-- Dart
-- JSON
-- Consola interactiva
-- Visual Studio Code
-
 ---
 
 # Tecnologías utilizadas
