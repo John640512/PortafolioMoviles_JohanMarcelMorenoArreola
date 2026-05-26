@@ -74,6 +74,7 @@ Asegúrate de tener instalado **Flutter** en tu sistema operativo. Puedes verifi
 ```bash
 flutter doctor
 ```
+Nota
 
 ### 2. Clonar el Proyecto
 Descarga el código desde el repositorio de GitHub:
