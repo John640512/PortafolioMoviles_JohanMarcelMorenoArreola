@@ -85,7 +85,7 @@ git clone https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreo
 ### 3. Entrar al proyecto
 Entra a la siguiente ruta dentro del portafolio del proyecto:
 ```bash
-cd Proyecto_02_ReproductorMusica/Códigos
+cd Proyecto_02_ReproductorMusica/codigos
 ```
 
 ### 4. Descargar dependencias (Obligatorio)
