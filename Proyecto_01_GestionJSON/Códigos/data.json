@@ -1,0 +1,11 @@
+[
+  {"nombre": "Roberto", "edad": 21, "salario": 9000},
+  {"nombre": "Adriana", "edad": 24, "salario": 5000},
+  {"nombre": "Arturo", "edad": 19, "salario": 18000},
+  {"nombre": "Gabriela", "edad": 41, "salario": 14000},
+  {"nombre": "Pablo", "edad": 52, "salario": 19000},
+  {"nombre": "Panfilo", "edad": 47, "salario": 7800},
+  {"nombre": "Pancracio", "edad": 38, "salario": 18960},
+  {"nombre": "Enrique", "edad": 39, "salario": 23000},
+  {"nombre": "Priscilla", "edad": 20, "salario": 59000}
+]
