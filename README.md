@@ -39,23 +39,7 @@ Además, cada práctica permitió fortalecer habilidades de lógica de programac
 
 # Proyectos incluidos
 
-## Proyecto 1 — Mini reproductor de música en Flutter
-
-Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacenadas localmente mediante la librería `just_audio`.
-
-### Características principales
-
-- Reproducción de música en tiempo real
-- Botones de Play, Pause, Siguiente y Anterior
-- Barra de progreso interactiva
-- Visualización de portadas de canciones
-- Navegación fluida entre pistas
-- Interfaz moderna en tonos oscuros
-- Compatible con aplicación web y móvil
-
----
-
-## Proyecto 2 — Gestión y procesamiento de datos JSON
+## Proyecto 1 — Gestión y procesamiento de datos JSON
 
 Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos utilizando archivos JSON.
 
@@ -68,6 +52,22 @@ Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos 
 - Mostrar estadísticas generales
 - Exportar información resumida a un nuevo archivo JSON
 - Validación de opciones dentro del menú
+
+---
+
+## Proyecto 2 — Mini reproductor de música en Flutter
+
+Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacenadas localmente mediante la librería `just_audio`.
+
+### Características principales
+
+- Reproducción de música en tiempo real
+- Botones de Play, Pause, Siguiente y Anterior
+- Barra de progreso interactiva
+- Visualización de portadas de canciones
+- Navegación fluida entre pistas
+- Interfaz moderna en tonos oscuros
+- Compatible con aplicación web y móvil
 
 ---
 
@@ -105,6 +105,6 @@ Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos 
 
 ```bash
 📦 PortafolioMoviles_JohanMarcelMorenoArreola
- ┣ 📂 Proyecto_01_ReproductorMusica
- ┣ 📂 Proyecto_02_GestionJSON
+ ┣ 📂 Proyecto_01_GestionJSON
+ ┣ 📂 Proyecto_02_ReproductorMusica
  ┣ 📜 README.md
