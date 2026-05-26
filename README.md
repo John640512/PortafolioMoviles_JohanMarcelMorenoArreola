@@ -81,6 +81,7 @@ Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacen
   <img src="https://skillicons.dev/icons?i=vscode" />
 </p>
 
+- **Flutter**
 - **Dart**
 - **just_audio**
 - **JSON**
