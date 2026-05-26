@@ -45,23 +45,73 @@ El proyecto busca demostrar cómo desarrollar una aplicación multimedia funcion
 
 # Capturas de pantalla
 
-## Pantalla principal
+## Pantalla principal del reproductor
 
 <p align="center">
-  <img src="capturas/inicio.png" width="250"/>
+  <img src="capturas/pantalla_principal.png" width="250"/>
 </p>
+
+Vista principal de la aplicación mostrando la portada, nombre de la canción y controles multimedia.
+
+---
 
 ## Reproducción de música
 
 <p align="center">
-  <img src="capturas/reproductor.png" width="250"/>
+  <img src="capturas/reproduccion.png" width="250"/>
 </p>
 
-## Controles multimedia
+La aplicación reproduciendo una canción utilizando la librería `just_audio`.
+
+---
+
+## Canción en pausa
 
 <p align="center">
-  <img src="capturas/controles.png" width="250"/>
+  <img src="capturas/pausa.png" width="250"/>
 </p>
+
+Estado de pausa de la canción con actualización dinámica del botón Play/Pause.
+
+---
+
+## Cambio de canciones
+
+<p align="center">
+  <img src="capturas/cambio_cancion.png" width="250"/>
+</p>
+
+Navegación entre canciones usando los controles de siguiente y anterior.
+
+---
+
+## Barra de progreso interactiva
+
+<p align="center">
+  <img src="capturas/barra_progreso.png" width="250"/>
+</p>
+
+Barra de progreso sincronizada con la reproducción del audio en tiempo real.
+
+---
+
+## Versión web de la aplicación
+
+<p align="center">
+  <img src="capturas/version_web.png" width="700"/>
+</p>
+
+Ejecución del reproductor musical desde navegador web utilizando Flutter Web.
+
+---
+
+## Versión móvil de la aplicación
+
+<p align="center">
+  <img src="capturas/version_movil.png" width="250"/>
+</p>
+
+Ejecución del reproductor musical en dispositivo móvil o emulador Android.
 
 ---
 
