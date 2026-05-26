@@ -1,0 +1,73 @@
+# Mini reproductor de música en Flutter
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-Mobile_App-02569B?style=for-the-badge&logo=flutter" />
+  <img src="https://img.shields.io/badge/Dart-Programming-0175C2?style=for-the-badge&logo=dart" />
+  <img src="https://img.shields.io/badge/VS_Code-Editor-007ACC?style=for-the-badge&logo=visualstudiocode" />
+</p>
+
+---
+
+# Objetivo del proyecto
+
+Desarrollar una aplicación móvil capaz de reproducir música utilizando Flutter, implementando controles multimedia, navegación entre canciones y una interfaz visual moderna e interactiva.
+
+---
+
+# Problema que resuelve
+
+El proyecto busca demostrar cómo desarrollar una aplicación multimedia funcional utilizando Flutter, permitiendo reproducir archivos de audio locales mediante controles intuitivos para mejorar la experiencia del usuario.
+
+---
+
+# Tecnologías utilizadas
+
+- Flutter
+- Dart
+- just_audio
+- Visual Studio Code
+- GitHub
+
+---
+
+# Conceptos aplicados
+
+- Programación orientada a objetos
+- Manejo de widgets en Flutter
+- Navegación entre pantallas
+- Reproducción multimedia
+- Gestión de estados
+- Diseño de interfaces móviles
+- Uso de librerías externas
+- Manejo de listas y objetos
+
+---
+
+# Capturas de pantalla
+
+## Pantalla principal
+
+<p align="center">
+  <img src="capturas/inicio.png" width="250"/>
+</p>
+
+## Reproducción de música
+
+<p align="center">
+  <img src="capturas/reproductor.png" width="250"/>
+</p>
+
+## Controles multimedia
+
+<p align="center">
+  <img src="capturas/controles.png" width="250"/>
+</p>
+
+---
+
+# Instrucciones de ejecución
+
+## 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
