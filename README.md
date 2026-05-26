@@ -110,5 +110,14 @@ Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacen
 ```bash
 📦 PortafolioMoviles_JohanMarcelMorenoArreola
  ┣ 📂 Proyecto_01_GestionJSON
+ ┃ ┣ 📂 capturas
+ ┃ ┣ 📂 codigos
+ ┃ ┗ 📜 README.md
+ ┃
  ┣ 📂 Proyecto_02_ReproductorMusica
- ┣ 📜 README.md
+ ┃ ┣ 📂 capturas
+ ┃ ┣ 📂 codigos
+ ┃ ┗ 📜 README.md
+ ┃
+ ┗ 📜 README.md
+```
