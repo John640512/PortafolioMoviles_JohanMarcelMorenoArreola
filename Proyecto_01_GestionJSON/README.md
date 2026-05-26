@@ -88,7 +88,7 @@ Entra a la siguiente ruta dentro del proyecto:
 cd Proyecto_01_GestionJSON/Códigos
 ```
 
-### 3. Ejecutar la aplicación
+### 4. Ejecutar la aplicación
 Ejecuta el programa utilizando:
 ```bash
 dart run principal.dart
