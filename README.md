@@ -3,6 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-Móvil-blue?style=for-the-badge&logo=flutter" />
   <img src="https://img.shields.io/badge/Dart-Programación-0175C2?style=for-the-badge&logo=dart" />
+  <img src="https://img.shields.io/badge/Dart-Programación-0175C2?style=for-the-badge&logo=vscode" />
   <img src="https://img.shields.io/badge/GitHub-Repositorio-black?style=for-the-badge&logo=github" />
 </p>
 
