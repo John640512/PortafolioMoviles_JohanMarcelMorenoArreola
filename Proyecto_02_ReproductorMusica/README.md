@@ -108,7 +108,7 @@ Ejecución del reproductor musical desde navegador web utilizando Flutter Web.
 ## Versión móvil de la aplicación
 
 <p align="center">
-  <img src="capturas/version_movil.png" width="400"/>
+  <img src="capturas/version_movil.png" width="450"/>
 </p>
 
 Ejecución del reproductor musical en dispositivo móvil o emulador Android.
