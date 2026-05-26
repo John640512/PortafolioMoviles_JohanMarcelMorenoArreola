@@ -1,16 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 
+// Función principal de la aplicación
 void main() {
+
+  // Ejecuta la aplicación Flutter
   runApp(const MyApp());
 }
 
+// Clase que representa una canción
 class Song {
+
+  // Título de la canción
   final String title;
+
+  // Nombre del artista
   final String artist;
+
+  // Ruta del archivo de audio
   final String audio;
+
+  // Ruta de la imagen de portada
   final String image;
 
+  // Constructor de la clase Song
   Song({
     required this.title,
     required this.artist,
@@ -19,21 +32,35 @@ class Song {
   });
 }
 
+// Clase principal de la aplicación
 class MyApp extends StatelessWidget {
+
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
+
+    // Configuración principal de la app
     return MaterialApp(
+
+      // Oculta la etiqueta DEBUG
       debugShowCheckedModeBanner: false,
+
+      // Título de la aplicación
       title: 'Mini Reproductor del Moreno',
+
+      // Tema oscuro de la aplicación
       theme: ThemeData.dark(),
+
+      // Pantalla inicial
       home: const MusicPlayerScreen(),
     );
   }
 }
 
+// Pantalla principal del reproductor
 class MusicPlayerScreen extends StatefulWidget {
+
   const MusicPlayerScreen({super.key});
 
   @override
@@ -41,15 +68,20 @@ class MusicPlayerScreen extends StatefulWidget {
       _MusicPlayerScreenState();
 }
 
+// Estado de la pantalla principal
 class _MusicPlayerScreenState
     extends State<MusicPlayerScreen> {
 
+  // Objeto encargado de reproducir audio
   final AudioPlayer player = AudioPlayer();
 
+  // Variable que indica si la música está reproduciéndose
   bool isPlaying = false;
 
+  // Índice de la canción actual
   int currentSongIndex = 0;
 
+  // Lista de canciones disponibles
   final List<Song> songs = [
 
     Song(
@@ -69,83 +101,115 @@ class _MusicPlayerScreenState
 
   @override
   void initState() {
+
     super.initState();
 
+    // Carga la canción inicial
     loadSong();
 
-    // Escuchar cambios del reproductor
+    // Escucha cambios en el estado del reproductor
     player.playingStream.listen((playing) {
 
+      // Actualiza el estado de reproducción
       setState(() {
         isPlaying = playing;
       });
     });
   }
 
+  // Función para cargar la canción actual
   Future<void> loadSong() async {
 
-    // Detener canción actual
+    // Detiene cualquier canción en reproducción
     await player.stop();
 
-    // Cargar nueva canción
+    // Carga el archivo de audio correspondiente
     await player.setAsset(
       songs[currentSongIndex].audio,
     );
 
+    // Actualiza la interfaz
     setState(() {});
   }
 
+  // Función para reproducir música
   Future<void> playMusic() async {
+
     await player.play();
   }
 
+  // Función para pausar música
   Future<void> pauseMusic() async {
+
     await player.pause();
   }
 
+  // Función para avanzar a la siguiente canción
   Future<void> nextSong() async {
 
+    // Verifica si hay más canciones disponibles
     if (currentSongIndex < songs.length - 1) {
+
       currentSongIndex++;
+
     } else {
+
+      // Regresa a la primera canción
       currentSongIndex = 0;
     }
 
+    // Carga la nueva canción
     await loadSong();
 
+    // Reproduce automáticamente
     await playMusic();
   }
 
+  // Función para regresar a la canción anterior
   Future<void> previousSong() async {
 
+    // Verifica si no está en la primera canción
     if (currentSongIndex > 0) {
+
       currentSongIndex--;
+
     } else {
+
+      // Regresa a la última canción
       currentSongIndex = songs.length - 1;
     }
 
+    // Carga la nueva canción
     await loadSong();
 
+    // Reproduce automáticamente
     await playMusic();
   }
 
   @override
   void dispose() {
+
+    // Libera recursos del reproductor
     player.dispose();
+
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
 
+    // Obtiene la canción actual
     Song currentSong = songs[currentSongIndex];
 
     return Scaffold(
 
       body: Container(
 
+        // Fondo degradado oscuro
         decoration: const BoxDecoration(
+
           gradient: LinearGradient(
+
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
 
@@ -162,20 +226,24 @@ class _MusicPlayerScreenState
           child: SingleChildScrollView(
 
             child: Padding(
+
               padding: const EdgeInsets.all(25),
 
               child: ConstrainedBox(
 
+                // Ajusta el contenido al tamaño de la pantalla
                 constraints: BoxConstraints(
                   minHeight: MediaQuery.of(context).size.height - 50,
                 ),
 
                 child: Column(
+
+                  // Centra los elementos verticalmente
                   mainAxisAlignment: MainAxisAlignment.center,
 
                   children: [
 
-                // Título superior
+                // Texto superior del reproductor
                 const Text(
                   "NOW PLAYING",
 
@@ -189,14 +257,17 @@ class _MusicPlayerScreenState
 
                 const SizedBox(height: 35),
 
-                // Imagen elegante
+                // Contenedor de la portada de la canción
                 Container(
+
                   width: 280,
                   height: 280,
 
                   decoration: BoxDecoration(
+
                     borderRadius: BorderRadius.circular(30),
 
+                    // Sombra elegante para la imagen
                     boxShadow: [
 
                       BoxShadow(
@@ -206,6 +277,7 @@ class _MusicPlayerScreenState
                       ),
                     ],
 
+                    // Imagen de portada
                     image: DecorationImage(
                       image: AssetImage(currentSong.image),
                       fit: BoxFit.cover,
@@ -215,7 +287,7 @@ class _MusicPlayerScreenState
 
                 const SizedBox(height: 25),
 
-                // Título canción
+                // Nombre de la canción
                 Text(
                   currentSong.title,
 
@@ -230,7 +302,7 @@ class _MusicPlayerScreenState
 
                 const SizedBox(height: 10),
 
-                // Artista
+                // Nombre del artista
                 Text(
                   currentSong.artist,
 
@@ -243,21 +315,26 @@ class _MusicPlayerScreenState
 
                 const SizedBox(height: 25),
 
-                // Barra progreso
+                // Barra de progreso de la canción
                 StreamBuilder<Duration>(
+
+                  // Escucha la posición actual de reproducción
                   stream: player.positionStream,
 
                   builder: (context, snapshot) {
 
+                    // Tiempo actual de reproducción
                     Duration position =
                         snapshot.data ?? Duration.zero;
 
+                    // Duración total de la canción
                     Duration duration =
                         player.duration ?? Duration.zero;
 
                     return Column(
                       children: [
 
+                        // Personalización del Slider
                         SliderTheme(
 
                           data: SliderTheme.of(context).copyWith(
@@ -276,15 +353,18 @@ class _MusicPlayerScreenState
                           ),
 
                           child: Slider(
+
                             activeColor: Colors.white,
                             inactiveColor: Colors.grey.shade800,
 
                             min: 0,
 
+                            // Valor máximo del slider
                             max: duration.inSeconds > 0
                                 ? duration.inSeconds.toDouble()
                                 : 1,
 
+                            // Posición actual de la canción
                             value: position.inSeconds
                                 .toDouble()
                                 .clamp(
@@ -295,6 +375,7 @@ class _MusicPlayerScreenState
                                       : 1,
                                 ),
 
+                            // Permite adelantar o retroceder canción
                             onChanged: (value) async {
 
                               await player.seek(
@@ -306,12 +387,15 @@ class _MusicPlayerScreenState
                           ),
                         ),
 
+                        // Tiempos de reproducción
                         Row(
+
                           mainAxisAlignment:
                               MainAxisAlignment.spaceBetween,
 
                           children: [
 
+                            // Tiempo actual
                             Text(
                               formatTime(position),
 
@@ -320,6 +404,7 @@ class _MusicPlayerScreenState
                               ),
                             ),
 
+                            // Tiempo total
                             Text(
                               formatTime(duration),
 
@@ -336,87 +421,99 @@ class _MusicPlayerScreenState
 
                 const SizedBox(height: 25),
 
-                // Botones modernos
-                Row(
+                // Botones del reproductor
+                                Row(
                   mainAxisAlignment:
-                      MainAxisAlignment.center,
+                      MainAxisAlignment.spaceEvenly,
 
                   children: [
 
-                    // Previous
+                    // Botón para regresar a la canción anterior
                     IconButton(
                       onPressed: previousSong,
 
                       icon: const Icon(
                         Icons.skip_previous_rounded,
+                        color: Colors.white,
                         size: 45,
-                        color: Colors.white70,
                       ),
                     ),
 
-                    const SizedBox(width: 20),
-
-                    // Play/Pause
+                    // Botón principal de reproducir y pausar
                     Container(
+
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
-
-                        gradient: const LinearGradient(
-                          colors: [
-                            Color(0xFF5A5A5A),
-                            Color(0xFF2E2E2E),
-                          ],
-                        ),
 
                         boxShadow: [
 
                           BoxShadow(
-                            color: Colors.black.withOpacity(0.5),
+                            color: Colors.white.withOpacity(0.2),
                             blurRadius: 15,
-                            offset: const Offset(0, 8),
+                            spreadRadius: 2,
                           ),
                         ],
                       ),
 
                       child: CircleAvatar(
                         radius: 38,
-                        backgroundColor: Colors.transparent,
+                        backgroundColor: Colors.white,
 
                         child: IconButton(
-                          onPressed: () async {
 
+                          onPressed: () {
+
+                            // Verificar si la música está sonando
                             if (isPlaying) {
-                              await pauseMusic();
+
+                              pauseMusic();
+
                             } else {
-                              await playMusic();
+
+                              playMusic();
                             }
                           },
 
                           icon: Icon(
+
+                            // Cambiar icono dinámicamente
                             isPlaying
                                 ? Icons.pause_rounded
                                 : Icons.play_arrow_rounded,
 
+                            color: Colors.black,
                             size: 45,
-                            color: Colors.white,
                           ),
                         ),
                       ),
                     ),
 
-                    const SizedBox(width: 20),
-
-                    // Next
+                    // Botón para avanzar a la siguiente canción
                     IconButton(
                       onPressed: nextSong,
 
                       icon: const Icon(
                         Icons.skip_next_rounded,
+                        color: Colors.white,
                         size: 45,
-                        color: Colors.white70,
                       ),
                     ),
                   ],
+                ),
+
+                const SizedBox(height: 35),
+
+                // Texto inferior decorativo
+                const Text(
+                  "Mini Reproductor desarrollado con Flutter",
+
+                  textAlign: TextAlign.center,
+
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 14,
+                    letterSpacing: 1,
+                  ),
                 ),
                   ],
                 ),
@@ -428,17 +525,22 @@ class _MusicPlayerScreenState
     );
   }
 
+  // Función para dar formato al tiempo de reproducción
+  // Convierte la duración en minutos y segundos
   String formatTime(Duration duration) {
 
     String twoDigits(int n) =>
         n.toString().padLeft(2, '0');
 
+    // Obtener minutos
     String minutes =
         twoDigits(duration.inMinutes.remainder(60));
 
+    // Obtener segundos
     String seconds =
         twoDigits(duration.inSeconds.remainder(60));
 
+    // Retornar tiempo formateado
     return "$minutes:$seconds";
   }
 }
