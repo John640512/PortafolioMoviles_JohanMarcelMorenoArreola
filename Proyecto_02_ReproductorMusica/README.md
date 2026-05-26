@@ -69,25 +69,36 @@ El proyecto busca demostrar cómo desarrollar una aplicación multimedia funcion
 
 Sigue estos pasos para clonar y ejecutar el proyecto en tu computadora local para Web y Móvil.
 
-### 1. Requisitos Previos
+### 1. Requisitos previos
 Asegúrate de tener instalado **Flutter** en tu sistema operativo. Puedes verificarlo ejecutando en tu terminal:
 ```bash
 flutter doctor
 ```
 **Nota**: No es necesario instalar Dart por aparte, al instalar Flutter ya te incluye Dart automáticamente.
 
-### 2. Clonar el Proyecto
+### 2. Clonar el proyecto
 Descarga el código desde el repositorio de GitHub:
 ```bash
 git clone https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreola.git
 ```
 
-### 3. Descargar Dependencias (Obligatorio)
+### 3. Descargar dependencias (Obligatorio)
 Como el repositorio está limpio y no incluye archivos temporales, debes reconstruir el entorno descargando los paquetes del proyecto:
 ```bash
 flutter pub get
 ```
 
+### 4. Ejecutar la aplicación
+Para lanzar la aplicación, usa el siguiente comando:
+```bash
+flutter run
+```
+La terminal te pedirá seleccionar el dispositivo de destino. Elige **Chrome** (para navegador web) o tu **Celular/Emulador** conectado.
+
+**Nota**: Si deseas forzar la ejecución directa en el navegador web sin que te pregunte, puedes usar:*
+```bash
+flutter run -d chrome
+```
 
 2. Entrar al proyecto
 
