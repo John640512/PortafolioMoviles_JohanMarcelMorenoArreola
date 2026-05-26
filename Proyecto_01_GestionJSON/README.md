@@ -98,18 +98,18 @@ dart run principal.dart
 
 ## ¿Qué aprendí?
 
-Con este proyecto aprendí a trabajar con archivos JSON utilizando Dart, comprendiendo cómo leer, interpretar y manipular datos estructurados dentro de una aplicación. También aprendí a realizar búsquedas, filtros y procesamiento de información mediante listas y mapas, permitiendo organizar registros de manera dinámica.
+Durante este proyecto aprendí a trabajar con archivos JSON en Dart y entendí mejor cómo se puede almacenar y manipular información de manera organizada. Aprendí a leer archivos, recorrer registros, hacer búsquedas y aplicar filtros dependiendo de lo que el usuario necesitara consultar.
 
-Además, fortalecí mis conocimientos sobre programación orientada a objetos y validación de datos, desarrollando menús interactivos capaces de responder correctamente a las opciones ingresadas por el usuario. El proyecto también me ayudó a comprender la importancia de mantener una estructura clara para facilitar el manejo de información.
+También comprendí mejor el manejo de listas, mapas y validaciones dentro del programa, además de practicar la lógica de programación para mostrar información correctamente en pantalla. Este proyecto me ayudó bastante a entender cómo se procesan datos dentro de una aplicación real.
 
 ## ¿Qué fue difícil?
 
-La parte más complicada fue manejar correctamente la lectura y escritura de archivos JSON, especialmente al momento de exportar información y validar que los datos conservaran el formato adecuado. También representó un reto controlar posibles errores generados por entradas inválidas del usuario dentro del menú interactivo.
+La parte más difícil fue manejar correctamente la lectura y escritura de los archivos JSON, porque cualquier error pequeño en la estructura podía hacer que el programa dejara de funcionar correctamente. También me costó un poco validar las opciones del menú para evitar entradas incorrectas por parte del usuario.
 
-Otro desafío importante fue implementar filtros eficientes para mostrar únicamente la información necesaria dependiendo de las condiciones establecidas por el usuario, como edad mínima o salario mínimo.
+Otro reto fue implementar los filtros de búsqueda y asegurarme de que mostraran únicamente los registros que cumplían con las condiciones establecidas, como edad mínima o salario mínimo.
 
 ## ¿Qué mejoraría?
 
-Me gustaría mejorar el sistema agregando una interfaz gráfica más moderna e intuitiva, ya que actualmente el proyecto funciona mediante consola. También sería interesante implementar filtros avanzados, ordenamiento dinámico de registros y exportación de información a diferentes formatos como CSV o Excel.
+Me gustaría mejorar este proyecto agregando una interfaz gráfica más moderna, ya que actualmente funciona desde consola. También sería buena idea añadir más filtros, ordenar los registros automáticamente y permitir exportar la información a otros formatos como Excel o CSV.
 
-Además, podría integrarse una base de datos o conexión con servicios externos para trabajar con información en tiempo real y aumentar las capacidades del sistema.
+Además, en el futuro podría conectarse con una base de datos o una API para trabajar con información en tiempo real y hacer el sistema mucho más completo.
