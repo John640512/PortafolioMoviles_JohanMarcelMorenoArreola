@@ -114,7 +114,12 @@ Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacen
  ┃ ┣ 📂 codigos
  ┃ ┗ 📜 README.md
  ┃
- ┣ 📂 Proyecto_02_ReproductorMusica
+ ┣ 📂 Proyecto_02_GeneradorPalabrasAleatorias
+ ┃ ┣ 📂 capturas
+ ┃ ┣ 📂 codigos
+ ┃ ┗ 📜 README.md
+ ┃
+ ┣ 📂 Proyecto_03_ReproductorMusica
  ┃ ┣ 📂 capturas
  ┃ ┣ 📂 codigos
  ┃ ┗ 📜 README.md
