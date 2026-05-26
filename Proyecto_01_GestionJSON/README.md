@@ -1,31 +1,73 @@
-## Proyecto 1 — Mini reproductor de música en Flutter
+# Proyecto 1: Gestión y procesamiento de datos JSON
 
-Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacenadas localmente mediante la librería `just_audio`.
+<p align="center">
+  <img src="https://img.shields.io/badge/Dart-Programming-0175C2?style=for-the-badge&logo=dart" />
+  <img src="https://img.shields.io/badge/JSON-Data-black?style=for-the-badge&logo=json" />
+  <img src="https://img.shields.io/badge/VS_Code-Editor-007ACC?style=for-the-badge&logo=visualstudiocode" />
+  <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" />
+</p>
 
-### Características principales
+---
 
-- Reproducción de música en tiempo real
-- Botones de Play, Pause, Siguiente y Anterior
-- Barra de progreso interactiva
-- Visualización de portadas de canciones
-- Navegación fluida entre pistas
-- Interfaz moderna en tonos oscuros
-- Compatible con aplicación web y móvil
+# Objetivo del proyecto
+
+Desarrollar una aplicación capaz de leer, procesar, buscar y filtrar información almacenada en archivos JSON mediante el lenguaje Dart.
+
+---
+
+# Problema que resuelve
+
+El proyecto permite administrar información estructurada utilizando archivos JSON, facilitando la búsqueda y filtrado de datos de manera rápida y organizada.
+
+---
+
+# Tecnologías utilizadas
+
+- Dart
+- JSON
+- Visual Studio Code
+- GitHub
+
+---
+
+# Conceptos aplicados
+
+- Manipulación de archivos JSON
+- Lectura y escritura de archivos
+- Programación orientada a objetos
+- Manejo de listas y mapas
+- Validación de datos
+- Filtrado de información
+- Estadísticas básicas
+- Menús interactivos en consola
+
+---
+
+# Capturas de pantalla
+
+## Menú principal
+
+<p align="center">
+  <img src="capturas/menu.png" width="500"/>
+</p>
+
+## Búsqueda de registros
+
+<p align="center">
+  <img src="capturas/busqueda.png" width="500"/>
+</p>
+
+## Resultados y estadísticas
+
+<p align="center">
+  <img src="capturas/resultados.png" width="500"/>
+</p>
+
+---
 
 # Instrucciones de ejecución
 
+## 1. Clonar el repositorio
+
 ```bash
-
-1. Clonar el repositorio
-
-git clone https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreola.git
-
-
-2. Entrar al proyecto
-
-cd Proyecto_01_GestionJSON/Códigos
-
-
-3. Ejecutar la aplicación
-
-dart run principal.dart
+git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
