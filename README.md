@@ -1,4 +1,4 @@
-# Portafolio de proyectos — Desarrollo de Aplicaciones para Dispositivos Móviles
+# 📱 Portafolio de Proyectos — Desarrollo de Aplicaciones para Dispositivos Móviles
 
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-Móvil-blue?style=for-the-badge&logo=flutter" />
@@ -9,7 +9,7 @@
 
 ---
 
-# Información del alumno
+# 👨‍💻 Información del alumno
 
 | Dato | Información |
 |------|-------------|
@@ -20,34 +20,73 @@
 
 ---
 
-# Descripción general
+# 📖 Descripción general
 
-Este repositorio funciona como un portafolio académico enfocado en el desarrollo de aplicaciones móviles, integrando distintos proyectos elaborados durante la materia de Desarrollo de Aplicaciones para Dispositivos Móviles.
+Este repositorio funciona como un portafolio académico donde se integran distintos proyectos desarrollados durante la materia de **Desarrollo de Aplicaciones para Dispositivos Móviles**.
 
-Cada práctica y proyecto tiene como propósito aplicar conocimientos relacionados con programación móvil, diseño de interfaces, navegación entre pantallas, gestión de datos y utilización de herramientas modernas para el desarrollo de software.
+Los proyectos tienen como finalidad aplicar conocimientos relacionados con:
 
-Durante la realización de los proyectos se trabajó con tecnologías como Flutter, Dart y AppSheet, fortaleciendo habilidades de desarrollo, lógica de programación, resolución de problemas y control de versiones mediante GitHub.
+- Desarrollo de aplicaciones móviles
+- Programación con Flutter y Dart
+- Manejo de interfaces gráficas
+- Gestión y almacenamiento de datos
+- Reproducción multimedia
+- Trabajo con archivos JSON
+- Control de versiones mediante GitHub
 
----
-
-# Proyectos incluidos
-
-## Proyecto 1 — Mini Reproductor de Música
-Aplicación desarrollada en Flutter capaz de reproducir música, mostrando controles interactivos, imágenes y navegación sencilla para mejorar la experiencia del usuario.
-
----
-
-## Proyecto 2 — Aplicación de Control de Ventas
-Sistema desarrollado utilizando AppSheet para la administración y control de ventas, permitiendo registrar información de manera dinámica y eficiente.
+Además, cada práctica permitió fortalecer habilidades de lógica de programación, solución de problemas y diseño de experiencias interactivas para el usuario.
 
 ---
 
-## Proyecto 3 — Navegación y Gestión de Datos
-Aplicación móvil enfocada en la navegación entre pantallas, manejo de widgets y almacenamiento básico de información dentro de la aplicación.
+# 🚀 Proyectos incluidos
+
+## 🎵 Proyecto 1 — Mini Reproductor de Música en Flutter
+
+Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacenadas localmente mediante la librería `just_audio`.
+
+### ✨ Características principales
+
+- Reproducción de música en tiempo real
+- Botones de Play, Pause, Siguiente y Anterior
+- Barra de progreso interactiva
+- Visualización de portadas de canciones
+- Navegación fluida entre pistas
+- Interfaz moderna en tonos oscuros
+- Compatible con aplicación web y móvil
+
+### 🛠 Tecnologías utilizadas
+
+- Flutter
+- Dart
+- just_audio
+- Visual Studio Code
 
 ---
 
-# Tecnologías utilizadas
+## 📊 Proyecto 2 — Gestión y Procesamiento de Datos JSON
+
+Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos utilizando archivos JSON.
+
+### ✨ Funcionalidades principales
+
+- Mostrar registros almacenados en JSON
+- Buscar personas por nombre
+- Filtrar datos por edad mínima
+- Filtrar datos por salario mínimo
+- Mostrar estadísticas generales
+- Exportar información resumida a un nuevo archivo JSON
+- Validación de opciones dentro del menú
+
+### 🛠 Tecnologías utilizadas
+
+- Dart
+- JSON
+- Consola interactiva
+- Visual Studio Code
+
+---
+
+# 🧰 Tecnologías utilizadas
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=dart" />
@@ -62,27 +101,29 @@ Aplicación móvil enfocada en la navegación entre pantallas, manejo de widgets
 - **AppSheet**
 - **GitHub**
 - **Visual Studio Code**
+- **JSON**
 
 ---
 
-# Competencias desarrolladas
+# 📚 Competencias desarrolladas
 
-- Desarrollo de interfaces móviles
+- Desarrollo de aplicaciones móviles
+- Diseño de interfaces gráficas
+- Manejo de widgets en Flutter
 - Programación orientada a objetos
-- Diseño de aplicaciones móviles
-- Navegación entre pantallas
-- Gestión de datos
+- Gestión y procesamiento de datos
+- Manipulación de archivos JSON
+- Reproducción multimedia
+- Resolución de problemas
 - Trabajo colaborativo
 - Uso de control de versiones con GitHub
 
 ---
 
-# Objetivo del portafolio
+# 📂 Estructura del repositorio
 
-Mostrar el avance académico y práctico obtenido durante el curso, evidenciando el desarrollo de aplicaciones móviles funcionales mediante distintas herramientas y tecnologías actuales.
-
----
-
-<p align="center">
-  Portafolio académico desarrollado por Johan Marcel Moreno Arreola
-</p>
+```bash
+📦 Portafolio
+ ┣ 📂 Proyecto_1_Reproductor_Musica
+ ┣ 📂 Proyecto_2_Gestion_JSON
+ ┣ 📜 README.md
