@@ -83,7 +83,7 @@ git clone https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreo
 ```
 
 ### 3. Entrar al proyecto
-Entra a la siguiente ruta dentro del proyecto:
+Entra a la siguiente ruta dentro del portafolio del proyecto:
 ```bash
 cd Proyecto_01_GestionJSON/Códigos
 ```
