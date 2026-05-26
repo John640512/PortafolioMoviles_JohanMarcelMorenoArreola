@@ -76,16 +76,12 @@ Aplicación enfocada en la lectura, búsqueda, filtrado y exportación de datos 
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=dart" />
-  <img src="https://skillicons.dev/icons?i=flutter" />
-  <img src="https://www.gstatic.com/images/branding/product/2x/appsheet_48dp.png" width="48" height="48" />
   <img src="https://cdn-icons-png.flaticon.com/512/136/136525.png" width="48" height="48" />
   <img src="https://skillicons.dev/icons?i=github" />
   <img src="https://skillicons.dev/icons?i=vscode" />
 </p>
 
 - **Dart**
-- **Flutter**
-- **AppSheet**
 - **JSON**
 - **GitHub**
 - **Visual Studio Code**
