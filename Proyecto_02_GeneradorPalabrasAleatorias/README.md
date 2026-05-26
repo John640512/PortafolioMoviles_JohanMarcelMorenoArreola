@@ -155,7 +155,7 @@ git clone https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreo
 Accede a la carpeta correspondiente:
 
 ```bash
-cd Proyecto_03_GeneradorPalabrasFlutter/codigos
+cd Proyecto_02_GeneradorPalabrasAleatorias/codigos
 ```
 
 ---
