@@ -128,7 +128,7 @@ Generación automática del archivo `resumen.json` con la información procesada
 ## Creación de resumen JSON
 
 <p align="center">
-  <img src="capturas/exportacion_json2.png" width="700"/>
+  <img src="capturas/exportacion_json2.png" width="350"/>
 </p>
 
 Resultado de exportar resumen JSON.
