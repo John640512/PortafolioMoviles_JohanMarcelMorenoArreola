@@ -76,7 +76,7 @@ git clone https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreo
 
 2. Entrar al proyecto
 
-cd Proyecto_02_ReproductorMusica
+cd Proyecto_02_ReproductorMusica/Códigos
 
 
 3. Instalar dependencias
