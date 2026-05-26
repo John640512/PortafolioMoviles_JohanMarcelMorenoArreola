@@ -70,10 +70,21 @@ El proyecto demuestra cómo trabajar con estructuras JSON para gestionar informa
 Sigue estos pasos para clonar y ejecutar el proyecto en tu computadora local.
 
 ### 1. Requisitos previos
-
 Asegúrate de tener instalado **Dart SDK** en tu sistema operativo. Puedes verificarlo ejecutando en tu terminal:
 
 ```bash
 dart --version
 ```
 **Nota**: En caso de que tengas Flutter instalado en tu equipo, ya tendrás acceso a Dart, simplemente ejecuta el comando anterior para verificar esto.
+
+### 2. Clonar el proyecto
+Descarga el código desde el repositorio de GitHub:
+```bash
+git clone https://github.com/John640512/PortafolioMoviles_JohanMarcelMorenoArreola.git
+```
+
+### 3. Entrar al proyecto
+Descarga el código desde el repositorio de GitHub:
+```bash
+cd Proyecto_01_GestionJSON/Códigos
+```
