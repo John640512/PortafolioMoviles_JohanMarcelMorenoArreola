@@ -1,8 +1,8 @@
 # Mini reproductor de música en Flutter
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Flutter-Mobile_App-02569B?style=for-the-badge&logo=flutter" />
-  <img src="https://img.shields.io/badge/Dart-Programming-0175C2?style=for-the-badge&logo=dart" />
+  <img src="https://img.shields.io/badge/Flutter-App_Móvil-02569B?style=for-the-badge&logo=flutter" />
+  <img src="https://img.shields.io/badge/Dart-Programación-0175C2?style=for-the-badge&logo=dart" />
   <img src="https://img.shields.io/badge/VS_Code-Editor-007ACC?style=for-the-badge&logo=visualstudiocode" />
 </p>
 
