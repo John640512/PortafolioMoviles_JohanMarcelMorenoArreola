@@ -93,3 +93,23 @@ Ejecuta el programa utilizando:
 ```bash
 dart run principal.dart
 ```
+
+# Reflexión personal
+
+## ¿Qué aprendí?
+
+Aquí escribes lo que aprendiste durante el desarrollo del proyecto.
+
+## ¿Qué fue difícil?
+
+Aquí explicas los problemas o retos que tuviste.
+
+## ¿Qué mejoraría?
+
+Aquí mencionas mejoras futuras o cosas que agregarías al proyecto.
+
+---
+
+<p align="center">
+  Proyecto desarrollado por Johan Marcel Moreno Arreola
+</p>
