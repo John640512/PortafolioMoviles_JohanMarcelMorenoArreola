@@ -1,4 +1,4 @@
-# Portafolio de Proyectos — Desarrollo de Aplicaciones para Dispositivos Móviles
+# Portafolio de proyectos — Desarrollo de Aplicaciones para Dispositivos Móviles
 
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-Móvil-blue?style=for-the-badge&logo=flutter" />
