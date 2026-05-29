@@ -146,14 +146,16 @@ Aplicación móvil desarrollada en Flutter capaz de reproducir canciones almacen
  ┃ ┣ 📂 codigos
  ┃ ┗ 📜 README.md
  ┃
- ┣ 📂 PruebasEnVideo
- ┃ ┣ 📂 Proyecto_01_GestionJSON
- ┃ ┃ ┗ 📹 EvidenciaProyecto1.mkv
- ┃ ┣ 📂 Proyecto_02_GeneradorPalabrasAleatorias
- ┃ ┃ ┗ 📹 EvidenciaProyecto2.mkv
- ┃ ┗ 📂 Proyecto_03_ReproductorMusica
- ┃   ┣ 📹 EvidenciaProyecto3(Móvil).mkv
- ┃   ┗ 📹 EvidenciaProyecto3(Web).mkv
+ ┣ 📂 Evidencias
+ ┃ ┣ 📂 PruebasEnVideo
+ ┃ ┃ ┣ 📂 Proyecto_01_GestionJSON
+ ┃ ┃ ┃ ┗ 📹 EvidenciaProyecto1.mkv
+ ┃ ┃ ┣ 📂 Proyecto_02_GeneradorPalabrasAleatorias
+ ┃ ┃ ┃ ┗ 📹 EvidenciaProyecto2.mkv
+ ┃ ┃ ┗ 📂 Proyecto_03_ReproductorMusica
+ ┃ ┃   ┣ 📹 EvidenciaProyecto3(Móvil).mkv
+ ┃ ┃   ┗ 📹 EvidenciaProyecto3(Web).mkv
+ ┃ ┗ 📝 ReportePDFPortafolioFinal_MorenoArreolaJohanMarcel.pdf
  ┃
  ┗ 📜 README.md
 ```
